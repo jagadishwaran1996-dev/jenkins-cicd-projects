@@ -18,6 +18,7 @@ pipeline {
             echo "Build started!"
             echo "Branch: ${GIT_BRANCH}"
             echo "Build Number: ${BUILD_NUMBER}"
+            apt-get install -y nodejs npm
             npm install
           '''
         }
