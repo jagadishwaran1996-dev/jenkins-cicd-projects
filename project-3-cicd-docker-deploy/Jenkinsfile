@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  tools {
+    nodejs 'NodeJS'
+  }
 
   environment {
     PROJECT_DIR = "project-3-cicd-docker-deploy"
