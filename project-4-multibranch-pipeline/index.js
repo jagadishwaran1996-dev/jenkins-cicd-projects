@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3004;
 app.get("/", (req, res) => {
   res.status(200).json({
     status: "ok",
-    project: "project-4-multibranch-pipeline",
+    project: "project-4-multibranch-pipelinee",
     message: "Welcome to Project 4 API",
   });
 });
