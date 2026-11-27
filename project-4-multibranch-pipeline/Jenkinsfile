@@ -3,10 +3,10 @@ pipeline {
 
   environment {
     PROJECT_DIR = "project-4-multibranch-pipeline"
-    IMAGE_NAME = "venkatesan004/project-4-multibranch-pipeline"
+    IMAGE_NAME = "jagadish97/backend-app"
     IMAGE_TAG = "${BUILD_NUMBER}"
-    CONTAINER_NAME = "project-4-multibranch-pipeline"
-    EMAIL_TO = "venkatesangunaraj@gmail.com"
+    CONTAINER_NAME = "backend-app"
+    EMAIL_TO = "jagadish.paru93@gmail.com"
     DOCKER_CREDENTIALS = "dockerhub-credentials"
   }
 
